@@ -13,8 +13,13 @@
 		p {
 			margin-left: 10px;
 		}
-		#projects {
-			width: 50vw;
+		#projects, #other-lists {
+			width: 40vw;
+			display: inline-block;
+			vertical-align: top;
+		}
+		#other-lists {
+			padding-left: 5vw;
 		}
 		#projects-intro {
 			margin-left: 0;
@@ -24,6 +29,7 @@
 <body>
 	<h1>Favorite Music of 2015</h1>
 	<div id="projects">
+		<h3>Favorite albums, mixtapes, and EPs</h3>
 		<p id="projects-intro">These are the albums, mixtapes, and EPs that I liked this year. The projects that I liked the most are in bold.</p>
 			<h3>January</h3>
 				<p class="album">Sremmlife - Rae Sremmurd</p>
@@ -31,6 +37,7 @@
 				<p class="album">Reality Show - Jazmine Sullivan</p>
 				<p class="album">B4.DA.$$ - Joey Bada$$</p>
 				<p class="album">The Cost of Victory - Vic Spencer</p>
+				<p class="mixtpae-ep">The Suspended Kid - Sevdaliza</p>
 			<h3>February</h3>
 				<p class="mixtape-ep">If You're Reading This It's Too Late - Drake</p>
 			<h3>March</h3>
@@ -99,6 +106,11 @@
 			<h3>October</h3>
 				<p class="mixtape-ep">#TheFoodNetwork - Finding Novyon</p>
 				<p class="mixtape-ep">S!CK S!CK S!CK EP - Smino</p>
+	</div>
+	<div id="other-lists">
+		<h3>HYPE LIST</h3>
+			<p class="mixtape-ep">Bloo - Kacy Hill</p>
+			<p class="mixtape-ep">5 O'Clock Shadow - Jimi Tents</p>
 	</div>
 </body>
 </html>
